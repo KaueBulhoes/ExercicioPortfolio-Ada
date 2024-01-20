@@ -4,62 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Portfolio - ADA</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="cabecalho">
             <img src="./images/Logo.png" alt="">
             <img src="./images/Hamburguer.png" alt="">
         </nav>
-        <div>
+        <div class="intro">
             <h1>Olá, sou o Kauê 🤙</h1>
-            <p>Desenvolvo ideias e ajudo a construir um mundo melhor através do software.</p>
-            <div>
-                <button type="button">Contato</button>
+
+                <p>Desenvolvo <span class="txt-azul">ideias</span> e ajudo a construir um mundo melhor através do software.</p>
+
+            <div class="contato-intro">
+                <button type="button" class="btn-contato">Contato</button>
                 <a href="">Donwload CV</a>
+                <!--como alinhar essa imagem da seta?-->
+                <img src="./images/arrow-right.svg" alt="seta apontando para a direita">
             </div>
         </div>
     </header>
     <main>
-        <div>
-            <h2>Últimos Projetos</h2>
-            <ul>
+        <div class="projetos">
+            <div class="quebra-palavra">
+                <h2>Últimos Projetos</h2>
+            </div>
+            <ul class="projetos-exemplos">
                 <li>
                     <h3>E-commerce</h3>
-                    <ul>
-                        <li>React</li>
-                        <li>Rest API</li>
+                    <ul class="projetos-tags">
+                        <li class="tag-react">React</li>
+                        <li class="tag-restApi">Rest API</li>
                     </ul>
                     <img src="./images/image 7.png" alt="">
-                    <ul>
+                    <ul class="projetos-tags">
                         <li>GitHub</li>
                         <li>Deploy</li>
                     </ul>
                 </li>
                 <li>
-                    <h3>E-commerce</h3>
-                    <ul>
+                    <h3>Trybe Couser</h3>
+                    <ul class="projetos-tags">
                         <li>React native</li>
                         <li>Redux</li>
                     </ul>
                     <img src="./images/image 7-1.png" alt="">
-                    <ul>
+                    <ul class="projetos-tags">
                         <li>GitHub</li>
                         <li>Deploy</li>
                     </ul>
                 </li>
                 <li>
-                    <h3>E-commerce</h3>
-                    <ul>
+                    <h3>Trybetunes</h3>
+                    <ul  class="projetos-tags">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JS</li>
                         <li>Redux</li>
                     </ul>
                     <img src="./images/image 7-2.png" alt="">
-                    <ul>
+                    <ul class="projetos-tags">
                         <li>GitHub</li>
                         <li>Deploy</li>
                     </ul>
@@ -91,16 +98,16 @@
     <footer>
         <div>
             <h2>Tem alguma ideia?</h2>
-        <p>Vamos construí-la juntos</p>
-        <a href="mailto:kaue.bulhoes@hotmail.com">kaue.bulhoes@hotmail.com</a>
-        <ul>
-            <li>
-                <img src="./images/Twitter.png" alt="">
-            </li>
-            <li>
-                <img src="./images/linkedin.png" alt="">
-            </li>
-        </ul>
+            <p>Vamos construí-la juntos</p>
+            <a href="mailto:kaue.bulhoes@hotmail.com">kaue.bulhoes@hotmail.com</a>
+            <ul>
+                <li>
+                    <img src="./images/Twitter.png" alt="">
+                </li>
+                <li>
+                    <img src="./images/linkedin.png" alt="">
+                </li>
+            </ul>
         </div>
         <div>
             <img src="./images/image 9.png" alt="">
