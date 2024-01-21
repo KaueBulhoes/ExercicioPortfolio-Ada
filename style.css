@@ -88,7 +88,7 @@ header h1{
     border: none;
 }
 
-.btn-contato:hover{
+.btn-contato:hover, .btn-colorir:hover{
     cursor: pointer;
 }
 
@@ -130,9 +130,6 @@ header h1{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
-    /* width: 1100px;
-    display: grid;
-    grid-template-columns: 366.67px 366.67px 366.67px; */
 }
 
 .projetos-exemplos img{
@@ -226,13 +223,9 @@ header h1{
     background-color: #F59E0B;
 }
 
-.btn-colorir:hover{
-    cursor: pointer;
-}
-
 .txt-linha{
     border-radius: 999px;
-    background: var(--Default-gray-900, #111827);
+    background: #111827;
     width: 5px;
     align-self: stretch;
 }
