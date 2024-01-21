@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
     color: #111827;
     font-weight: 500;
+    max-width: 1920px;
 }
 
 body {
@@ -28,6 +29,7 @@ header h1{
 
 .contato-intro img{
     height: 20px;
+    vertical-align: middle;
 }
 
 .cabecalho{
@@ -83,20 +85,23 @@ header h1{
     text-decoration: underline wavy #FFF278;
 }
 
-main div h2{
-    margin: 80px 0 60px 0;
-}
-
-.projetos h2{
-    font-size: 92px;
-}
-
 .quebra-palavra{
     width: 100px;
     line-height: 82px;
+    
+}
+
+.quebra-palavra:nth-child(1){
+    margin-bottom: 40px;
+}
+
+.quebra-palavra h2{
+    font-size: 92px;
+    margin-top: 80px;
 }
 
 .projetos-exemplos{
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     /* width: 1100px;
@@ -115,27 +120,118 @@ main div h2{
 
 .projetos-tags{
     display: flex;
+    vertical-align: top;
 }
 
-.tag-react{
-    background-color: #38BDF8;
+.projetos-tags img{
+    height: 20px;
+    vertical-align: top;
+}
+
+.projetos-tags li{
+    padding-right: 14px;
+}
+
+.tag{
+    color: #fff;
     padding: 8px 16px;
     border-radius: 32px;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 26px;
     margin-right: 8px;
+}
+
+.tag-react, .tag-reactiveNative, .tag-html{
+    background-color: #38BDF8;
 }
 
 .tag-restApi{
-    background-color: #38BDF8;
-    padding: 8px 16px;
-    border-radius: 32px;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 26px;
-    margin-right: 8px;
+    background-color: #F43F5E;
 }
+
+.tag-redux{
+    background-color: #111827;
+}
+
+.tag-css{
+    background-color: #34D399;
+}
+
+.tag-js{
+    background-color: #F59E0B;
+}
+
+.projeto{
+    width: 353px;
+    height: 270px;
+    padding: 34.29px 0 23.04px 0;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.projeto01{
+    background-color: #E23839;
+}
+
+.projeto02{
+    background-color: #022516;
+}
+
+.projeto03{
+    background-color: #ED7854;
+}
+
+.btn-navegar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 60px;
+}
+
+.btn-colorir{
+    display: flex;
+    border: none;
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: #F59E0B;
+}
+
+.btn-colorir:hover{
+    cursor: pointer;
+}
+
+.txt-linha{
+    border-radius: 999px;
+    background: var(--Default-gray-900, #111827);
+    width: 5px;
+    align-self: stretch;
+}
+
+.txt-sobremim{
+    width: 498px;
+    margin-left: 20px;
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+
+.skills h2{
+    font-size: 52px;
+    margin-bottom: 48px;
+}
+
+.skills-img{
+    display: flex;
+    width: 551px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
 
 li{
     list-style: none;
