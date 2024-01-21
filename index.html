@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,11 +15,12 @@
             <img src="./images/Hamburguer.png" alt="">
         </nav>
         <div class="intro">
+            <div  class="img-cabeca">
+                <div><img src="./images/imagem_cabeca.png" alt=""></div>
+            </div>
             <h1>Olá, sou o Kauê 🤙</h1>
-
-            <p>Desenvolvo <span class="txt-azul">ideias</span> e ajudo a construir um mundo melhor através do software.
+            <p>Desenvolvo <span class="teste"><span class="txt-azul">ideias</span></span> e ajudo a construir um mundo melhor através do software.
             </p>
-
             <div class="contato-intro">
                 <button type="button" class="btn-contato">Contato</button>
                 <a href="">Donwload CV <img src="./images/arrow-right.svg" alt="seta apontando para a direita"></a>
@@ -28,7 +29,7 @@
         </div>
     </header>
     <main>
-        <div class="projetos">
+        <section class="projetos">
             <div class="quebra-palavra">
                 <h2>Últimos Projetos</h2>
             </div>
@@ -79,57 +80,65 @@
                 </li>
             </ul>
             <div class="btn-navegar">
-                <button class="btn-colorir"><img src="./images/seta branca esquerda.png" alt=""></button>
-                <button class="btn-colorir"><img src="./images/seta branca direita.png" alt=""></button>
+                <button><img src="./images/seta branca esquerda.png" alt=""></button>
+                <button><img src="./images/seta branca direita.png" alt=""></button>
             </div>
-        </div>
-        <div>
-            <div class="quebra-palavra">
+        </section>
+        <section>
+            <div class="quebra-palavra teste02">
                 <h2>Sobre mim</h2>
             </div>
-            <div class="teste">
-                <div class="txt-linha">
-                    <div class="txt-sobremim">
-                        <p>Nascido em 92, estou em transição de carreira, vindo da área da construção civil onde
-                            desenvolvi
-                            experiência com gestão de pessoas, negociação com cliente, gerenciamento de equipes,
-                            organização
-                            e
-                            comunicação dentre outras soft skills.
-                            Hoje construo aplicações fullstack!</p>
+            <section class="sobremin">
+                <div>
+                    <div class="txt-linha">
+                        <div class="txt-sobremim">
+                            <p>Nascido em 92, estou em transição de carreira, vindo da área da construção civil onde
+                                desenvolvi
+                                experiência com gestão de pessoas, negociação com cliente, gerenciamento de equipes,
+                                organização
+                                e
+                                comunicação dentre outras soft skills.
+                            </p><br>
+                            <p>Hoje construo aplicações fullstack!</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li><img src="./images/react.png" alt=""> React</li>
+                            <li><img src="./images/js.png" alt="">Node.js</li>
+                            <li><img src="./images/mysql.png" alt="">MySQL</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <ul class="skills-img">
-                        <li><img src="./images/react.png" alt=""></li>
-                        <li><img src="./images/js.png" alt=""></li>
-                        <li><img src="./images/mysql.png" alt=""></li>
-                    </ul>
+                <div class="img-sobremim">
+                    <img src="./public/images/desktop-83223-cb-621-e-14-f-75491-f-0040-fca-21131-sticker.png" alt="">
                 </div>
-                <img src="./images/83223cb621e14f75491f0040fca21131-sticker.png" alt="">
-            </div>
-        </div>
+            </section>
+        </section>
     </main>
     <footer>
-        <div>
-            <h2>Tem alguma ideia?</h2>
-            <p>Vamos construí-la juntos</p>
-            <a href="mailto:kaue.bulhoes@hotmail.com">kaue.bulhoes@hotmail.com</a>
-            <ul>
-                <li>
-                    <img src="./images/Twitter.png" alt="">
-                </li>
-                <li>
-                    <img src="./images/linkedin.png" alt="">
-                </li>
-            </ul>
+        <div class="rodape">
+            <div class="rodape-txt">
+                <h2>Tem alguma ideia?</h2>
+                <p>Vamos construí-la juntos!</p>
+                <a href="mailto:">hello@achtenberg.io</a>
+                <ul>
+                    <li>
+                        <img src="./images/Twitter.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/linkedin.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="bck-azul">
+                <img src="./images/image 9.png" alt="">
+            </div>
         </div>
-        <div>
-            <img src="./images/image 9.png" alt="">
-        </div>
-        <div>
-            <h6>Developed by Alessandro Achtenberg | Design by rafo</h6>
+        <div class="rodape-copy">
+            <h6>Developed by Alessandro Achtenberg | Design by <img src="./public/images/desktop-vector.svg" alt="">
+            </h6>
         </div>
     </footer>
 </body>
